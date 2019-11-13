@@ -1,0 +1,7 @@
+<block tt:if="{{$taroCompReady}}">
+    <view class="index">
+        <button class="dec_btn" bindtap="funPrivatebbfzz">dec 3</button>
+        <view><text>{{counter.num}}</text>
+        </view>
+    </view>
+</block>

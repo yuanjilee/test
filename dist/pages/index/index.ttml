@@ -1,0 +1,9 @@
+<block tt:if="{{$taroCompReady}}">
+    <view class="index">
+        <button class="add_btn" bindtap="funPrivatebbdzz">+</button>
+        <button class="dec_btn" bindtap="funPrivatebbezz">-</button>
+        <button class="push" bindtap="push">Push</button>
+        <view><text>{{counter.num}}</text>
+        </view>
+    </view>
+</block>
